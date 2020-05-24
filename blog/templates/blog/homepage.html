@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>{% block title %}Homepage{% endblock %}</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% load static %}
+<title>Home of Mike King</title>
+<!-- <link rel="stylesheet" href="{% static 'css/homepage.css' %}"> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="{% static 'css/homepage.css' %}">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <!-- Navbar  -->
+    <div class="topnav">
+      
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Projects
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Python scripts</a>
+            <a href="#">Scrapers</a>
+            <a href="#">Data Science</a>
+            <a href="#">Django App</a>
+          </div>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+      
+      
+
+    </div>
+      <!-- Hero Banner  -->
+      <div class="hero-container" id="hero">
+        <div class="myHero-image">
+          
+          <div class="hero-overlay">
+            <h1>Hello, I'm Mike.</h1>
+            <p>and I'm a Self-Taught Developer.</p>
+            <button class="hero-btn">Hire Me</button>
+          
+        </div>
+        </div>
+      
+      </div>  
+    </div>
+    
+  </header>
+    
+<!-- Main  -->
+
+<section>
+  <h2 style="text-align: center;">Interests</h2>
+    <div class="skill-container">
+
+    <div class="skill">
+      <div class="skill-header"><i class="fa fa-bomb" aria-hidden="true"></i></div>
+      <h5>Python</h5>
+      <p class="skill-desc">Fun stuff</p>
+    </div>
+    <div class="skill">
+      <div class="skill-header"><i class="fa fa-bomb" aria-hidden="true"></i></div>
+      <h5>Python</h5>
+      <p class="skill-desc">Fun stuff</p>
+    </div>
+    <div class="skill">
+      <div class="skill-header"><i class="fa fa-bomb" aria-hidden="true"></i></div>
+      <h5>Python</h5>
+      <p class="skill-desc">Fun stuff</p>
+    </div>
+
+  </div>
+</section>
+<br />
+
+
+<!-- Footer -->
+<footer class="myFooter">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  Powered by stubborness.
+  </p>
+</footer>
+
+</body>
+
+</html>
