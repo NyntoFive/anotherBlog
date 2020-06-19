@@ -4,3 +4,7 @@ venv/
 db.sqlite3
 .env
 analytics/
+__pycache__/
+server/
+.python-version
+wikipedia.py
