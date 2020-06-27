@@ -8,3 +8,5 @@ __pycache__/
 server/
 .python-version
 wikipedia.py
+pages/static/
+blog/static/

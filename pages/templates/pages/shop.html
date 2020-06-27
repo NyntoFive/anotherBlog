@@ -1,3 +1,6 @@
+{% extends 'base.html' %}
+{% block title %}SHOP{% endblock %}
+{% block content %}
 <!--Section: Block Content-->
 <section class="mb-5">
 
@@ -457,9 +460,15 @@
   
   </section>
   <!--Section: Block Content-->
-  $(document).ready(function () {
-    // MDB Lightbox Init
-    $(function () {
-      $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+  {% endblock %}
+  {% block js %}
+  <script>
+
+    $(document).ready(function () {
+      // MDB Lightbox Init
+      $(function () {
+        $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      });
     });
-  });
+    </script>
+{% endblock %}
